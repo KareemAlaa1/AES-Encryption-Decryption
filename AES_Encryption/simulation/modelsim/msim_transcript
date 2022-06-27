@@ -1,0 +1,333 @@
+# Reading D:/Programs/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do AES_Encryption_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Programs/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:36 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Wrapper.v 
+# -- Compiling module Wrapper
+# -- Compiling module Wrapper_tb
+# 
+# Top level modules:
+# 	Wrapper_tb
+# End time: 13:25:36 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/SubBytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:36 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/SubBytes.v 
+# -- Compiling module SubBytes
+# 
+# Top level modules:
+# 	SubBytes
+# End time: 13:25:36 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/ShiftRows.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:36 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/ShiftRows.v 
+# -- Compiling module ShiftRows
+# 
+# Top level modules:
+# 	ShiftRows
+# End time: 13:25:36 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/sbox.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:36 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/sbox.v 
+# -- Compiling module sbox
+# 
+# Top level modules:
+# 	sbox
+# End time: 13:25:36 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/mixColumns3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:36 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/mixColumns3.v 
+# -- Compiling module time2
+# -- Compiling module multiply
+# -- Compiling module multiplyByMat
+# -- Compiling module mixColumns3
+# 
+# Top level modules:
+# 	mixColumns3
+# End time: 13:25:36 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:36 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v 
+# -- Compiling module KeyGeneration_256
+# 
+# Top level modules:
+# 	KeyGeneration_256
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v 
+# -- Compiling module KeyGeneration_192
+# 
+# Top level modules:
+# 	KeyGeneration_192
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v 
+# -- Compiling module KeyGeneration_128
+# 
+# Top level modules:
+# 	KeyGeneration_128
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v 
+# -- Compiling module KeyGeneration256
+# 
+# Top level modules:
+# 	KeyGeneration256
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v 
+# -- Compiling module KeyGeneration192
+# 
+# Top level modules:
+# 	KeyGeneration192
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v 
+# -- Compiling module KeyGeneration
+# 
+# Top level modules:
+# 	KeyGeneration
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyExpansion.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyExpansion.v 
+# -- Compiling module SubWord
+# -- Compiling module Rcon
+# -- Compiling module RotWord
+# -- Compiling module KeyExpansion
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InvSubBytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:37 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InvSubBytes.v 
+# -- Compiling module InvSubBytes
+# 
+# Top level modules:
+# 	InvSubBytes
+# End time: 13:25:37 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InvShiftRows.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:38 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InvShiftRows.v 
+# -- Compiling module InvShiftRows
+# 
+# Top level modules:
+# 	InvShiftRows
+# End time: 13:25:38 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InverseMixColumns.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:38 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InverseMixColumns.v 
+# -- Compiling module m2
+# -- Compiling module m4
+# -- Compiling module m8
+# -- Compiling module m9
+# -- Compiling module m11
+# -- Compiling module m13
+# -- Compiling module m14
+# -- Compiling module multiply1
+# -- Compiling module multiplyColByRow
+# -- Compiling module inverseMixColumn
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 13:25:38 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InverseCipher.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:38 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InverseCipher.v 
+# -- Compiling module InverseCipher
+# -- Compiling module tbs
+# 
+# Top level modules:
+# 	tbs
+# End time: 13:25:38 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Cipher.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:38 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Cipher.v 
+# -- Compiling module Cipher
+# -- Compiling module Cipher_tb
+# 
+# Top level modules:
+# 	Cipher_tb
+# End time: 13:25:38 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/AddRoundKey.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:38 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/AddRoundKey.v 
+# -- Compiling module AddRoundKey
+# 
+# Top level modules:
+# 	AddRoundKey
+# End time: 13:25:38 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption {C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:25:38 on May 25,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption" C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Wrapper.v 
+# -- Compiling module Wrapper
+# -- Compiling module Wrapper_tb
+# 
+# Top level modules:
+# 	Wrapper_tb
+# End time: 13:25:38 on May 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Wrapper_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Wrapper_tb 
+# Start time: 13:25:38 on May 25,2022
+# Loading work.Wrapper_tb
+# Loading work.Wrapper
+# Loading work.Cipher
+# Loading work.KeyGeneration_128
+# Loading work.KeyGeneration
+# Loading work.sbox
+# Loading work.KeyGeneration_192
+# Loading work.KeyGeneration192
+# Loading work.KeyGeneration_256
+# Loading work.KeyGeneration256
+# Loading work.AddRoundKey
+# Loading work.SubBytes
+# Loading work.ShiftRows
+# Loading work.mixColumns3
+# Loading work.multiplyByMat
+# Loading work.multiply
+# Loading work.time2
+# Loading work.InverseCipher
+# Loading work.KeyExpansion
+# Loading work.RotWord
+# Loading work.SubWord
+# Loading work.Rcon
+# Loading work.InvShiftRows
+# Loading work.InvSubBytes
+# Loading work.inverseMixColumn
+# Loading work.multiplyColByRow
+# Loading work.multiply1
+# Loading work.m9
+# Loading work.m8
+# Loading work.m4
+# Loading work.m2
+# Loading work.m11
+# Loading work.m13
+# Loading work.m14
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Wrapper.v(36): [PCDPC] - Port size (4) does not match connection size (32) for port 'nk'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Cipher.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Cipher.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Cipher.v(87): [PCDPC] - Port size (128) does not match connection size (256) for port 'Keyin'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(7): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut2 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(8): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut3 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(9): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut4 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(10): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut5 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(11): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut6 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(12): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut7 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(13): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut8 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(14): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut9 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(15): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut10 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_128.v(16): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen1/uut11 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Cipher.v(88): [PCDPC] - Port size (192) does not match connection size (256) for port 'Keyin'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(8): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut21 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(9): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut31 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(10): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut41 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(11): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut51 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(12): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut61 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(13): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut71 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(14): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut81 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_192.v(15): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen2/uut91 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration192.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(7): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut17 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(8): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut27 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(9): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut37 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(10): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut47 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(11): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut57 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(12): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut67 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration_256.v(13): [PCDPC] - Port size (4) does not match connection size (32) for port 'rc'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u/gen3/uut77 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/KeyGeneration256.v
+# ** Warning: (vsim-3015) C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/Wrapper.v(39): [PCDPC] - Port size (128) does not match connection size (256) for port 'Key'. The port definition is at: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InverseCipher.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Wrapper_tb/uu/u0 File: C:/Users/kokob/Desktop/AES_Encryption/AES_Encryption/InverseCipher.v
+# ** Warning: Design size of 15557 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 16:21:29 on May 25,2022, Elapsed time: 2:55:51
+# Errors: 0, Warnings: 30
